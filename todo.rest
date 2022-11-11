@@ -1,0 +1,30 @@
+@url = "http://localhost:9008/"
+
+//Retrieve
+GET http://localhost:9008/ HTTP/1.1
+
+//create
+###
+POST http://localhost:9008/ HTTP/1.1
+Content-Type: application/json
+
+{ 
+	"title": "boxing",
+	"description": "i box once a week"
+}
+
+//update
+
+### 
+PUT http://localhost:9008/ HTTP/1.1
+Content-Type: application/json
+
+{ 
+	"title": "fly to Balotelli",
+	"description": "check"
+}
+
+
+//delete 
+###
+DELETE http://localhost:9008/ HTTP/1.1

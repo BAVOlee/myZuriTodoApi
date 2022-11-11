@@ -1,0 +1,31 @@
+{
+  "name": "zuris",
+  "version": "1.0.0",
+  "description": "My Zuri Todo Api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BAVOlee/myZuriTodoApi.git"
+  },
+  "keywords": [],
+  "author": "BAVOlee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BAVOlee/myZuriTodoApi/issues"
+  },
+  "homepage": "https://github.com/BAVOlee/myZuriTodoApi#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.2",
+    "mongoose-paginate-v2": "^1.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
